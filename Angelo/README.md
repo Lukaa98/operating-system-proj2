@@ -7,6 +7,7 @@ In particular, we measure the impact of array data sizes, and stride size of a c
 ##  We use two programs:
 	 MeasureSingle(s1), we use a single process simulating two processes communicating
 by sending a single-byte message to itself via pipe. There are 10,000 simulated round-trip communications.
+	
 	MeasureSwitch (s2), two processes repeatedly send a single-byte message to each other via pipes.
 10,000 round-trip communications.
 
